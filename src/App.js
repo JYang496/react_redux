@@ -1,13 +1,8 @@
 import './App.scss';
-
+import Home from "./Home";
 function App() {
   return (
-    <div className="App">
-     Mark2Win Project: MusicStore_React-Redux-Thunk
-        <div>
-            <img src="img/beemusic-logo.png" alt=""/>
-        </div>
-    </div>
+      <Home/>
   );
 }
 
